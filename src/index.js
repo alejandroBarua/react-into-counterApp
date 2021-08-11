@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Component from "./Component";
+//import Component from "./Component";
+import CounterApp from "./CounterApp";
 import './index.css';
 
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render( <Component title="Hello World" number = {12}/>, divRoot);
+ReactDOM.render( <CounterApp value={12} />, divRoot);
