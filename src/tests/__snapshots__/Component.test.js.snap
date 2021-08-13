@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests <Component /> render title 1`] = `
+<Fragment>
+  <h1>
+    Hello World
+  </h1>
+  <p>
+    This is My first React App
+  </p>
+</Fragment>
+`;

@@ -6,8 +6,8 @@ const Component = ({ title = 'title', subtitle }) => {
 	return (
 
 		<> 
-			<h1> { title } </h1>
-			<p> { subtitle } </p>
+			<h1>{ title }</h1>
+			<p>{ subtitle }</p>
 		</>
 
 	);

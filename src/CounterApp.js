@@ -13,10 +13,10 @@ const CounterApp = ({ value = 0 }) => {
 	return (
 		<>
 			<h1>Counter App</h1>
-			<h2> { counter } </h2>
-			<button onClick = { counterAdd } >+1</button>
-			<button onClick = { counterReset } >Reset</button>
+			<h2>{ counter }</h2>
 			<button onClick = { counterSubtract } >-1</button>
+			<button onClick = { counterReset } >Reset</button>
+			<button onClick = { counterAdd } >+1</button>
 		</>
 	);
 }
